@@ -1,0 +1,15 @@
+name: SunRtp
+version: '${project.version}'
+author: fayns
+main: com.sunrtp.SunRtp
+api-version: '1.16'
+commands:
+  rtp:
+    description: Телепортирует вас в случайное место указанного мира
+    usage: /rtp
+    permission: sunrtp.teleport
+
+permissions:
+  sunrtp.teleport:
+    description: Позволяет использовать команду /rtp для телепортации в случайное место мира
+    default: op
